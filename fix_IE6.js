@@ -22,5 +22,5 @@ function fixUnload() {
 function unload() {
       $(document.body).empty();
 };
-if(Browser.Engine.trident && Browser.Engine.version < 7) window.onunload = unload;
-if(Browser.Engine.trident && Browser.Engine.version < 7) window.onbeforeunload = fixUnload;
+window.onunload = unload;
+window.onbeforeunload = fixUnload;
