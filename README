@@ -3,3 +3,8 @@ known issues :
 
 todo : 
 ¥ use internet explorer 6 methods to clean up the page.
+
+credits : 
+¥ the whole script comes from : 
+http://ajaxian.com/archives/are-you-sure-your-unload-handler-is-firing-in-ie
+using that script, we're sure that the unload event is fired and we can properly clean the memory
