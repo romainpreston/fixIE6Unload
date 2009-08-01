@@ -1,0 +1,5 @@
+known issues : 
+¥ slows down the javascript because it has to test if the unload function is still there : it disappears for example when someone adds a window event using mootools (ex : window.addEvent("resize", somefunction) )
+
+todo : 
+¥ use internet explorer 6 methods to clean up the page.
